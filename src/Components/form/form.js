@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Form } from "react-bootstrap"
+import { Button, Form, Row } from "react-bootstrap"
 
 const FormObject =()=>{
     var usernameRegex=/^\S{1,}$/
@@ -129,7 +129,7 @@ const FormObject =()=>{
 
     return(
         <>
-        <Form className="my-5 border p-5">
+        <Form className="my-5 p-5 col-5 mx-auto" style={{backgroundColor:'#212529',opacity:0.9,color:'white',borderRadius:50}}>
         
         <Form.Group className="mb-3">
         <Form.Label>Name</Form.Label>
@@ -176,7 +176,7 @@ const FormObject =()=>{
         </Form.Group>
 
 
-        <Button variant="success" type="submit">Register</Button>
+        <Row className="col-5 mx-auto"><Button variant="warning" type="submit" >Register</Button></Row>
         </Form>
         </>
     )

@@ -5,9 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://www.plex.tv/wp-content/uploads/2021/04/plex-splash-screen-04-30-21-new-1440x810.png');
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.details-card {
+  -webkit-box-shadow: -1px 0px 24px 10px rgba(140,138,140,0.64);
+  -moz-box-shadow: -1px 0px 24px 10px rgba(140,138,140,0.64);
+  box-shadow: -1px 0px 24px 10px rgba(140,138,140,0.64);
 }
